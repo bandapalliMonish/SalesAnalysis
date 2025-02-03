@@ -111,15 +111,3 @@ final_df['revenue'] = final_df['amount'] * final_df['units']
 final_df.to_csv('cleaned_sales_data.csv', index=False)
 
 print("Data cleaning and transformation complete.")
-
-# %%
-import matplotlib.pyplot as plt
-
-df = pd.read_csv("cleaned_sales_data.csv")
-df["date"] = pd.to_datetime(df["date"])
-df.groupby(df["date"].dt.month)["revenue"].sum().plot(kind="line")
-
-plt.title("Monthly Sales Trend")
-plt.xlabel("Month")
-plt.ylabel("Total Sales Revenue")
-plt.show()
