@@ -3,10 +3,10 @@ import pandas as pd
 
 
 # %%
-sales_df = pd.read_csv("Data Sciene Internship Assignment Datasets/sales.csv")
-promotion_df = pd.read_csv("Data Sciene Internship Assignment Datasets/promotion.csv")
-items_df = pd.read_csv("Data Sciene Internship Assignment Datasets/item.csv")
-supermarkets_df = pd.read_csv("Data Sciene Internship Assignment Datasets/supermarkets.csv")
+sales_df = pd.read_csv("Data Science Internship Assignment Datasets/sales.csv")
+promotion_df = pd.read_csv("Data Science Internship Assignment Datasets/promotion.csv")
+items_df = pd.read_csv("Data Science Internship Assignment Datasets/item.csv")
+supermarkets_df = pd.read_csv("Data Science Internship Assignment Datasets/supermarkets.csv")
 
 
 # %%
